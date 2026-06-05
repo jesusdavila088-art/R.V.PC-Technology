@@ -1,6 +1,5 @@
-// Base de datos de tu inventario real Refurbished
 const inventarioRefurbished = [
-    // --- ESCRITORIOS (CPUs) INTEL ---
+   
     {
         id: 1,
         tipo: "Escritorio",
@@ -34,7 +33,7 @@ const inventarioRefurbished = [
         ]
     },
 
-    // --- LAPTOPS INTEL ---
+ 
     {
         id: 3,
         tipo: "Laptop",
@@ -99,7 +98,7 @@ const inventarioRefurbished = [
         ]
     },
 
-    // --- LAPTOPS AMD RYZEN ---
+   
     {
         id: 6,
         tipo: "Laptop",
@@ -409,7 +408,7 @@ function renderizarCatalogo() {
     });
 }
 
-// Función que se activa al presionar el botón de WhatsApp
+
 function contactarVenta(marca, modelo) {
     const numeroWhatsApp = "584141766272";
     const mensaje = `Hola! Vengo de su catálogo web. Me interesa el equipo reacondicionado: ${marca} ${modelo}. ¿Me pueden dar el precio y disponibilidad actual?`;
@@ -417,7 +416,7 @@ function contactarVenta(marca, modelo) {
     window.open(url, '_blank');
 }
 
-// Iniciar al cargar la página
+
 document.addEventListener('DOMContentLoaded', () => {
     renderizarCatalogo();
     inicializarVisor();
