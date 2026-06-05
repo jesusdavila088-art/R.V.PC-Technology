@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RefurbTech | Equipos Premium Como Nuevos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i> R.V.PC Technology
+        </div>
+        <div class="nav-links">
+            <a href="#catalogo">Catálogo</a>
+            <a href="#garantia">Garantía</a>
+            <a href="#logistica">Envíos y Retiros</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Estrena Tecnología Profesional a Precio de Oportunidad</h1>
+            <p>Equipos Grado A+ certificados. La potencia que necesitas, con el respaldo que mereces. Envío inmediato a todo el país.</p>
+            <a href="#catalogo" class="btn-hero">Quiero mi Equipo Ahora</a>
+        </div>
+    </header>
+
+    <section class="trust-badges" id="garantia">
+        <div class="badge">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h3>Envío Nacional</h3>Seguridad total en cada envío. Recíbela en la puerta de tu hogar.</p>
+        </div>
+        <div class="badge">
+            <i class="fa-solid fa-door-open"></i>
+            <h3>Retiro en Puerta</h3>Compra local, compra seguro. Ven, verifica tu equipo y retíralo personalmente.</p>
+        </div>
+        <div class="badge">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>100% Testeado</h3>Certificación RefurbTech: Inspeccionados, optimizados y garantizados para un rendimiento impecable.</p>
+        </div>
+    </section>
+
+    <main class="catalogo-container" id="catalogo">
+        <div class="catalogo-header">
+            <h2>Inventario Disponible</h2>
+            <p>Equipos limitados. GARANTIA DE 90 DIAS.</p>
+        </div>
+        
+        <div id="grid-productos" class="catalogo-grid"></div>
+    </main>
+
+    <footer id="logistica">
+        <div class="footer-content">
+            <div class="footer-info">
+                <section class="seccion-nota">
+                    <div class="contenedor-nota">
+                        <h3>¿Qué significa RefurbTech A+?</h3>
+                        <p>No vendemos equipos usados. Seleccionamos equipos corporativos de alta gama, los optimizamos con unidades SSD de estado sólido y realizamos pruebas de estrés exhaustivas. Obtienes una máquina que costó tres veces más, por una fracción de su precio, con la misma sensación de estrenar</p>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-info">
+                <h3>R.V.PC Technology</h3>
+                <p>Especialistas en hardware reacondicionado de alta gama.</p>
+            </div>
+            <div class="footer-contact">
+                <p><i class="fa-brands fa-whatsapp"></i> Atención: +58 414 1766272</p>
+                <p><i class="fa-solid fa-location-dot"></i> Punto de atencion: San Cristóbal, Táchira, barrio obrero</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 RefurbTech. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="modal-visor" class="modal-visor" aria-hidden="true">
+        <div id="visor-fondo" class="modal-visor-fondo"></div>
+        <div class="modal-visor-contenido" role="dialog" aria-modal="true" aria-labelledby="visor-titulo">
+            <button type="button" id="visor-cerrar" class="visor-cerrar" aria-label="Cerrar galería">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="visor-layout">
+                <div class="visor-galeria">
+                    <div id="visor-contenedor-imagen" class="visor-contenedor-imagen">
+                        <button type="button" id="visor-anterior" class="visor-nav visor-nav-prev" aria-label="Foto anterior">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <img id="visor-imagen" src="" alt="">
+                        <button type="button" id="visor-siguiente" class="visor-nav visor-nav-next" aria-label="Foto siguiente">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <div class="visor-controles">
+                        <div class="visor-zoom-controles">
+                            <button type="button" id="visor-zoom-out" aria-label="Alejar"><i class="fa-solid fa-minus"></i></button>
+                            <span id="visor-nivel-zoom">100%</span>
+                            <button type="button" id="visor-zoom-in" aria-label="Acercar"><i class="fa-solid fa-plus"></i></button>
+                            <button type="button" id="visor-zoom-reset" class="visor-reset" aria-label="Restablecer zoom">
+                                <i class="fa-solid fa-compress"></i>
+                            </button>
+                        </div>
+                        <span id="visor-contador" class="visor-contador">1 / 3</span>
+                    </div>
+
+                    <div id="visor-miniaturas" class="visor-miniaturas"></div>
+                </div>
+
+                <aside class="visor-info">
+                    <span class="visor-etiqueta">Refurbished</span>
+                    <h2 id="visor-titulo"></h2>
+                    <p id="visor-ideal" class="visor-ideal"></p>
+                    <ul id="visor-specs" class="visor-specs"></ul>
+                    <p id="visor-precio" class="visor-precio"></p>
+                    <p class="visor-ayuda">Usa la rueda del mouse, doble clic o los botones para hacer zoom. Arrastra la imagen cuando esté ampliada.</p>
+                    <button type="button" id="visor-btn-whatsapp" class="btn-comprar btn-comprar-modal">
+                        <i class="fa-brands fa-whatsapp"></i> Consultar por WhatsApp
+                    </button>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
