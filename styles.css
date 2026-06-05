@@ -712,3 +712,23 @@ footer {
         flex-wrap: wrap;
     }
 }
+/* Ajustes específicos para móviles */
+@media (max-width: 600px) {
+    /* Ajusta el título principal para que no sea tan gigante */
+    .hero h1 { 
+        font-size: 1.8rem !important; 
+        line-height: 1.2;
+    }
+    
+    /* Ajusta el espaciado del botón para que no esté tan pegado */
+    .hero-btn {
+        margin-top: 1rem;
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+    
+    /* Asegura que los sellos de confianza se vean bien */
+    .trust-badge {
+        padding: 1rem;
+    }
+}
