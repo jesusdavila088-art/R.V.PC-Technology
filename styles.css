@@ -57,7 +57,7 @@ body {
 
 
 .hero {
-    background: linear-gradient(rgba(26, 37, 48, 0.9), rgba(26, 37, 48, 0.8)), url('imagenes/fondoprin.jpg') center/cover;
+    background: linear-gradient(rgba(26, 37, 48, 0.9), rgba(26, 37, 48, 0.8)), url('imagenes/fondoprin.jpg') center/contain;
     height: 60vh;
     display: flex;
     align-items: center;
