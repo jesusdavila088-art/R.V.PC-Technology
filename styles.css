@@ -731,4 +731,16 @@ footer {
         padding: 1rem;
     }
 }
+.whatsapp-link {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    background-color: #25D366 !important; 
+    color: #ffffff !important;
+    padding: 12px 20px !important;
+    border-radius: 50px !important;
+    text-decoration: none !important;
+    font-weight: 700 !important;
+    border: none !important;
+}
 
