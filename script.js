@@ -43,7 +43,7 @@ const inventarioRefurbished = [
         idealPara: "Ejecutivos, Programación, Trabajo remoto",
         procesador: "Intel Core i5-1135G7",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
+        almacenamiento: "256 GB SSD",
         pantalla: "14\" FHD",
         precio: "330,00 usd",
         imagenes: [
@@ -63,7 +63,7 @@ const inventarioRefurbished = [
         idealPara: "Alta gerencia, Viajes de negocios",
         procesador: "Intel Core i7-1185G7",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
+        almacenamiento: "256 GB SSD",
         pantalla: "14\" FHD",
         precio: "370,00 usd",
         imagenes: [
@@ -84,7 +84,7 @@ const inventarioRefurbished = [
         idealPara: "Ingeniería, Análisis de datos, Contabilidad",
         procesador: "Intel Core i7-1185G7",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
+        almacenamiento: "256 GB SSD",
         pantalla: "15.6\" FHD",
         precio: "420,00 usd",
         imagenes: [
@@ -108,7 +108,7 @@ const inventarioRefurbished = [
         idealPara: "Diseño interactivo, Multitarea intensiva",
         procesador: "AMD Ryzen 7 7730U",
         ram: "16 GB DDR4",
-        almacenamiento: "512 GB NVMe",
+        almacenamiento: "512 GB SSD",
         pantalla: "14\" FHD Táctil",
         precio: "470,00 usd",
         imagenes: [
@@ -129,7 +129,7 @@ const inventarioRefurbished = [
         idealPara: "Trabajo corporativo, Productividad avanzada",
         procesador: "AMD Ryzen 5 5650U",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
+        almacenamiento: "256 GB SSD",
         pantalla: "14\" FHD",
         precio: "365,00 usd",
         imagenes: [
@@ -148,7 +148,7 @@ const inventarioRefurbished = [
         idealPara: "Ofimática fluida, Estudiantes",
         procesador: "AMD Ryzen 5 4500U",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
+        almacenamiento: "256 GB SSD",
         pantalla: "14\" FHD",
         precio: "320.00 usd",
         imagenes: [
