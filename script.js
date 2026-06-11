@@ -11,7 +11,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR3",
         almacenamiento: "500 GB HDD",
         pantalla: "No incluye monitor",
-        precio: "150.00 usd",
+        precio: "140.00 usd",
         imagenes: [
             "imagenes/dell9020sff.png",
         ]
@@ -27,7 +27,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR3",
         almacenamiento: "500 GB HDD",
         pantalla: "No incluye monitor",
-        precio: "190.00 usd",
+        precio: "165,00 usd",
         imagenes: [
             "imagenes/dell9020sff.png",
         ]
@@ -45,7 +45,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
-        precio: "359.99 usd",
+        precio: "330,00 usd",
         imagenes: [
             "imagenes/HP ProBook 640 G8 1.jpg",
             "imagenes/HP ProBook 640 G8 2.jpg",
@@ -65,7 +65,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
-        precio: "399.99 usd",
+        precio: "370,00 usd",
         imagenes: [
             "imagenes/DELL Latitude 7420 1.jpg ",
             "imagenes/DELL Latitude 7420 2.jpg",
@@ -86,7 +86,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "15.6\" FHD",
-        precio: "449.99 usd",
+        precio: "420,00 usd",
         imagenes: [
             "imagenes/DELL Latitude 5520 1.jpg",
             "imagenes/DELL Latitude 5520 2.jpg",
@@ -110,7 +110,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "512 GB NVMe",
         pantalla: "14\" FHD Táctil",
-        precio: "499.99 usd",
+        precio: "470,00 usd",
         imagenes: [
             "imagenes/DELL Inspiron 15 3535 Táctil 1.jpg",
             "imagenes/DELL Inspiron 15 3535 Táctil 2.jpg",
@@ -131,7 +131,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
-        precio: "384.99 usd",
+        precio: "365,00 usd",
         imagenes: [
             "imagenes/HP EliteBook 845 G8 1.jpg",
             "imagenes/HP EliteBook 845 G8 2.jpg",
@@ -150,7 +150,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
-        precio: "340.00 usd",
+        precio: "320.00 usd",
         imagenes: [
             "imagenes/HP ProBook 445 G7 1.jpg",
             "imagenes/HP ProBook 445 G7 2.jpg",
