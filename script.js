@@ -10,6 +10,7 @@ const inventarioRefurbished = [
         procesador: "Xeon 1240v3",
         ram: "16 GB DDR3",
         almacenamiento: "500 GB HDD",
+        pantalla: "no incluye",
         Graficos: "Nvidia NS310",
         precio: "170.00 usd",
         imagenes: [
