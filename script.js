@@ -96,8 +96,6 @@ const inventarioRefurbished = [
             "imagenes/lenovot495.webp 4",
         ]
     },
-
-   
     {
         id: 6,
         tipo: "Laptop",
