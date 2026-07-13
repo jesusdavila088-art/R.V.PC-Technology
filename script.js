@@ -84,7 +84,7 @@ const inventarioRefurbished = [
         modelo: "LENOVO T495",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Ingeniería, Análisis de datos, Contabilidad",
-        procesador: "RYZEN 5 3500U",
+        procesador: "AMD RYZEN 5 3500U",
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
