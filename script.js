@@ -107,7 +107,7 @@ const inventarioRefurbished = [
         idealPara: "Diseño interactivo, Multitarea intensiva",
         procesador: "AMD Ryzen 7 7730U",
         ram: "16 GB DDR4",
-        almacenamiento: "512 GB SSD",
+        almacenamiento: "512 GB NVMe",
         pantalla: "14\" FHD Táctil",
         precio: "490,00 usd",
         imagenes: [
@@ -128,8 +128,9 @@ const inventarioRefurbished = [
         idealPara: "Trabajo corporativo, Productividad avanzada",
         procesador: "AMD Ryzen 5 5650U",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB SSD",
+        almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
+        Graficos: "AMD RX VEGA 7",
         precio: "400,00 usd",
         imagenes: [
             "imagenes/HP EliteBook 845 G8 1.jpg",
@@ -147,8 +148,9 @@ const inventarioRefurbished = [
         idealPara: "Ofimática fluida, Estudiantes",
         procesador: "AMD Ryzen 5 4500U",
         ram: "16 GB DDR4",
-        almacenamiento: "256 GB SSD",
+        almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
+        Graficos: "AMD RX VEGA 7",
         precio: "350.00 usd",
         imagenes: [
             "imagenes/HP ProBook 445 G7 1.jpg",
