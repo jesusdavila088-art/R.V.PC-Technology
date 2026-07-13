@@ -78,10 +78,10 @@ const inventarioRefurbished = [
         Graficos: "AMD RX VEGA 7",
         precio: "320,00 usd",
         imagenes: [
-            "imagenes/lenovot495 2.jpg",
+            "imagenes/lenovot495 4.jpg",
             "imagenes/lenovot495 3.jpg",
             "imagenes/lenovot495.jpg",
-            "imagenes/lenovot495 4.jpg",
+            "imagenes/lenovot495 2.jpg",
         ]
     },
     {
