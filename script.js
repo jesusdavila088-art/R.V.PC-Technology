@@ -179,14 +179,7 @@ function crearTarjeta(equipo) {
                 <li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>
                  ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
             </ul>
-            document.getElementById('visor-specs').innerHTML = `
-    <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
-    <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
-    <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
-    <li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>
-    ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
-`;
-
+            
             <div class="precio-btn-container">
                 <span class="precio">${textoPrecio}</span>
                 <div class="acciones-producto">
