@@ -13,7 +13,8 @@ const inventarioRefurbished = [
         graficos: "Nvidia NS310",
         precio: "170.00 usd",
         imagenes: [
-            "imagenes/dell9020sff.png",
+            "imagenes/hpz230.jpg",
+            "imagenes/hpz230 1.jpg",
         ]
    
     },
