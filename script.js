@@ -68,7 +68,7 @@ const inventarioRefurbished = [
         id: 5,
         tipo: "Laptop",
         marca: "LENOVO",
-        modelo: "LENOVO T495",
+        modelo: "T495",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Ingeniería, Análisis de datos, Contabilidad",
         procesador: "AMD RYZEN 5 3500U",
