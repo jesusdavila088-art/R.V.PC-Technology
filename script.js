@@ -3,34 +3,19 @@ const inventarioRefurbished = [
     {
         id: 1,
         tipo: "Escritorio",
-        marca: "DELL",
-        modelo: "OptiPlex 9020 SFF",
+        marca: "HP",
+        modelo: "HP Z 230 SFF",
         condicion: "GARANTIA INCLUIDA",
-        idealPara: "Oficinas, Puntos de venta, Administración",
-        procesador: "Intel Core i5-4570",
+        idealPara: "Oficinas, Puntos de venta, Administración,GAMA ENTRADA.",
+        procesador: "Xeon 1240v3",
         ram: "16 GB DDR3",
         almacenamiento: "500 GB HDD",
-        pantalla: "No incluye monitor",
-        precio: "150.00 usd",
+        graficos: "Nvidia NS310",
+        precio: "170.00 usd",
         imagenes: [
             "imagenes/dell9020sff.png",
         ]
-    },
-    {
-        id: 2,
-        tipo: "Escritorio",
-        marca: "DELL",
-        modelo: "OptiPlex 9020 SFF",
-        condicion: "GARANTIA INCLUIDA",
-        idealPara: "Oficinas, Multitarea pesada, Call Centers",
-        procesador: "Intel Core i7-4790",
-        ram: "16 GB DDR3",
-        almacenamiento: "500 GB HDD",
-        pantalla: "No incluye monitor",
-        precio: "175,00 usd",
-        imagenes: [
-            "imagenes/dell9020sff.png",
-        ]
+   
     },
 
  
