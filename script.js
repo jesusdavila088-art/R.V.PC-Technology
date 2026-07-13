@@ -90,10 +90,10 @@ const inventarioRefurbished = [
         pantalla: "14\" FHD",
         precio: "320,00 usd",
         imagenes: [
-            "imagenes/lenovot495.webp",
-            "imagenes/lenovot495.webp 2",
-            "imagenes/lenovot495.webp 3",
-            "imagenes/lenovot495.webp 4",
+            "imagenes/lenovot495.jpg",
+            "imagenes/lenovot495.jpg 2",
+            "imagenes/lenovot495.jpg 3",
+            "iimagenes/lenovot495.jpg 4",
         ]
     },
     {
