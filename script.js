@@ -4,7 +4,7 @@ const inventarioRefurbished = [
         id: 1,
         tipo: "Escritorio",
         marca: "HP",
-        modelo: "HP Z 230 SFF",
+        modelo: "Z 230 SFF",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Oficinas, Puntos de venta, Administración,GAMA ENTRADA.",
         procesador: "Xeon 1240v3",
