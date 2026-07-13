@@ -10,7 +10,7 @@ const inventarioRefurbished = [
         procesador: "Xeon 1240v3",
         ram: "16 GB DDR3",
         almacenamiento: "500 GB HDD",
-        graficos: "Nvidia NS310",
+        Graficos: "Nvidia NS310",
         precio: "170.00 usd",
         imagenes: [
             "imagenes/hpz230.jpg",
@@ -74,6 +74,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
+        Graficos: "AMD RX VEGA 7",
         precio: "320,00 usd",
         imagenes: [
             "imagenes/lenovot495.jpg",
@@ -175,7 +176,15 @@ function crearTarjeta(equipo) {
                 <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
                 <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
                 <li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>
+                 ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
             </ul>
+            document.getElementById('visor-specs').innerHTML = `
+    <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
+    <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
+    <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
+    <li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>
+    ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
+`;
 
             <div class="precio-btn-container">
                 <span class="precio">${textoPrecio}</span>
