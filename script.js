@@ -91,9 +91,9 @@ const inventarioRefurbished = [
         precio: "320,00 usd",
         imagenes: [
             "imagenes/lenovot495.jpg",
-            "imagenes/lenovot495.jpg 2",
-            "imagenes/lenovot495.jpg 3",
-            "iimagenes/lenovot495.jpg 4",
+            "imagenes/lenovot495 2.jpg",
+            "imagenes/lenovot495 3.jpg",
+            "imagenes/lenovot495 4.jpg",
         ]
     },
     {
