@@ -90,13 +90,10 @@ const inventarioRefurbished = [
         pantalla: "14\" FHD",
         precio: "320,00 usd",
         imagenes: [
-            "imagenes/DELL Latitude 5520 1.jpg",
-            "imagenes/DELL Latitude 5520 2.jpg",
-            "imagenes/DELL Latitude 5520 3.jpg",
-            "imagenes/DELL Latitude 5520 4.jpg",
-            "imagenes/DELL Latitude 5520 5.jpg",
-            "imagenes/DELL Latitude 5520 6.jpg",
-            "imagenes/DELL Latitude 5520 7.jpg",
+            "imagenes/lenovot495.webp",
+            "imagenes/lenovot495.webp 2",
+            "imagenes/lenovot495.webp 3",
+            "imagenes/lenovot495.webp 4",
         ]
     },
 
