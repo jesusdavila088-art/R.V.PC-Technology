@@ -243,7 +243,7 @@ function abrirVisor(equipoId, indiceInicial = 0) {
     const iconoTipo = equipo.tipo === "Laptop" ? "fa-laptop" : "fa-desktop";
     const textoPrecio = equipo.precio === "" ? "Consultar Precio" : `$${equipo.precio}`;
 
-    document.getElementById('visor-specs').innerHTML = `
+    document.getElementById('visor-titulo').innerHTML = `<i class="fa-solid ${iconoTipo}"></i> ${equipo.marca} ${equipo.modelo}`;
         <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
         <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
         <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
