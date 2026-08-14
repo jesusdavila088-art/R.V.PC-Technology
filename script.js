@@ -265,13 +265,17 @@ function abrirVisor(equipoId, indiceInicial = 0) {
         miniaturas.appendChild(btn);
     });
 
-    document.getElementById('visor-specs').innerHTML = `
+    document.getElementById('visor-btn-whatsapp').onclick = () => contactarVenta(equipo.marca, equipo.modelo);
     <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
     <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
     <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
     ${equipo.pantalla ? `<li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>` : ''}
     ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
-    ${equipo.fuente ? `<li><i class="fa-solid fa-bolt"></i> ${equipo.fuente}</li>` : ''}
+    ${equipo.fuente ? `<li><i class="fa-solid fa-bolt"></i> ${equipo.fuente}</li>` : ''
+    modal.classList.add('activo');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-abierto');
+    mostrarImagenVisor(indiceInicial);
 `;
 }
 
