@@ -20,24 +20,22 @@ const inventarioRefurbished = [
        
     },
    {
-      id: 2,
-        tipo: "Escritorio",
-        marca: "Qiyida",
-        modelo: "XEON X99",
-        condicion: "GARANTIA INCLUIDA",
-        idealPara: "Gaming,Multitarea.",
-        procesador: "Xeon E5 2670v3",
-        ram: "16 GB DDR4",
-        almacenamiento: "500 GB SSD",
-        Graficos: "RX 580 8GB 2048SP",
-        fuente: "CX650M Semi Mod",
-        precio: "400.00 usd",
-        imagenes: [
-            "imagenes/casegenerico.jpg",
-          
-         ]
-      
-      },    
+    id: 2,
+    tipo: "Escritorio",
+    marca: "Qiyida",
+    modelo: "XEON X99",
+    condicion: "GARANTIA INCLUIDA",
+    idealPara: "Gaming, Multitarea",
+    procesador: "Xeon E5 2670v3",
+    ram: "16 GB DDR4",
+    almacenamiento: "500 GB SSD",
+    Graficos: "RX 580 8GB 2048SP",
+    fuente: "CX650M Semi Mod",
+    precio: "400.00 usd",
+    imagenes: [
+        "imagenes/casegenerico.jpg"
+    ]
+},    
     {
         id: 3,
         tipo: "Laptop",
