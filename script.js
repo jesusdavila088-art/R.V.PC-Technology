@@ -17,7 +17,10 @@ const inventarioRefurbished = [
             "imagenes/hpz230.jpg",
             "imagenes/hpz230 1.jpg",
         ]
+       
     },
+
+   
     {
         id: 2,
         tipo: "Laptop",
