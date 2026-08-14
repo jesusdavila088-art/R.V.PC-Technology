@@ -17,67 +17,6 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 2,
-        tipo: "Escritorio",
-        marca: "DELL",
-        modelo: "OptiPlex 9020 SFF",
-        condicion: "GARANTIA INCLUIDA",
-        idealPara: "Oficinas, Multitarea pesada, Call Centers",
-        procesador: "Intel Core i7-4790",
-        ram: "16 GB DDR3",
-        almacenamiento: "500 GB HDD",
-        pantalla: "No incluye monitor",
-        precio: "175,00 usd",
-        imagenes: [
-            "imagenes/dell9020sff.png",
-        ]
-    },
-
- 
-    {
-        id: 3,
-        tipo: "Laptop",
-        marca: "HP",
-        modelo: "ProBook 640 G8",
-        condicion: "GARANTIA INCLUIDA",
-        idealPara: "Ejecutivos, Programación, Trabajo remoto",
-        procesador: "Intel Core i5-1135G7",
-        ram: "16 GB DDR4",
-        almacenamiento: "256 GB SSD",
-        pantalla: "14\" FHD",
-        Graficos: "Intel® Iris Xe Graphics",
-        precio: "350,00 usd",
-        imagenes: [
-            "imagenes/HP ProBook 640 G8 1.jpg",
-            "imagenes/HP ProBook 640 G8 2.jpg",
-            "imagenes/HP ProBook 640 G8 3.jpg",
-            "imagenes/HP ProBook 640 G8 4.jpg",
-            "imagenes/HP ProBook 640 G8 5.jpg",
-        ]
-    },
-    {
-        id: 4,
-        tipo: "Laptop",
-        marca: "DELL",
-        modelo: "Latitude 7420",
-        condicion: "GARANTIA INCLUIDA",
-        idealPara: "Gama ejecutiva, oficinista, estudio,",
-        procesador: "Intel Core i7-1185G7",
-        ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
-        pantalla: "14\" FHD",
-        Graficos: "Intel® Iris Xe Graphics",
-        precio: "390,00 usd",
-        imagenes: [
-            "imagenes/DELL Latitude 7420 1.jpg ",
-            "imagenes/DELL Latitude 7420 2.jpg",
-            "imagenes/DELL Latitude 7420 3.jpg",
-            "imagenes/DELL Latitude 7420 4.jpg",
-            "imagenes/DELL Latitude 7420 5.jpg",
-            "imagenes/DELL Latitude 7420 6.jpg",
-        ]
-    },
-    {
         id: 5,
         tipo: "Laptop",
         marca: "LENOVO",
