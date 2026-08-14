@@ -244,12 +244,16 @@ function abrirVisor(equipoId, indiceInicial = 0) {
     const textoPrecio = equipo.precio === "" ? "Consultar Precio" : `$${equipo.precio}`;
 
     document.getElementById('visor-titulo').innerHTML = `<i class="fa-solid ${iconoTipo}"></i> ${equipo.marca} ${equipo.modelo}`;
+    document.getElementById('visor-ideal').textContent = equipo.idealPara;
+    document.getElementById('visor-precio').textContent = textoPrecio;
+    
+    document.getElementById('visor-specs').innerHTML = `
         <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
         <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
         <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
         ${equipo.pantalla ? `<li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>` : ''}
         ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
-        ${equipo.fuente ? `<li><i class="fa-solid fa-bolt"></i> ${equipo.fuente}</li>` : ''}
+        ${equipo.fuente ? `<li><i class="fa-solid fa-bolt"></i> ${equipo.fuente}</li>` : ''} 
    
     `;
 
