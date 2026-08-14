@@ -3,21 +3,34 @@ const inventarioRefurbished = [
     {
         id: 1,
         tipo: "Escritorio",
-        marca: "HP",
-        modelo: "Z 230 SFF",
+        marca: "DELL",
+        modelo: "OptiPlex 9020 SFF",
         condicion: "GARANTIA INCLUIDA",
-        idealPara: "Oficinas, Puntos de venta, Administración,GAMA ENTRADA.",
-        procesador: "Xeon 1240v3",
+        idealPara: "Oficinas, Puntos de venta, Administración",
+        procesador: "Intel Core i5-4570",
         ram: "16 GB DDR3",
         almacenamiento: "500 GB HDD",
-        pantalla: "no incluye",
-        Graficos: "Nvidia NS310",
-        precio: "170.00 usd",
+        pantalla: "No incluye monitor",
+        precio: "150.00 usd",
         imagenes: [
-            "imagenes/hpz230.jpg",
-            "imagenes/hpz230 1.jpg",
+            "imagenes/dell9020sff.png",
         ]
-   
+    },
+    {
+        id: 2,
+        tipo: "Escritorio",
+        marca: "DELL",
+        modelo: "OptiPlex 9020 SFF",
+        condicion: "GARANTIA INCLUIDA",
+        idealPara: "Oficinas, Multitarea pesada, Call Centers",
+        procesador: "Intel Core i7-4790",
+        ram: "16 GB DDR3",
+        almacenamiento: "500 GB HDD",
+        pantalla: "No incluye monitor",
+        precio: "175,00 usd",
+        imagenes: [
+            "imagenes/dell9020sff.png",
+        ]
     },
 
  
@@ -68,20 +81,19 @@ const inventarioRefurbished = [
         id: 5,
         tipo: "Laptop",
         marca: "LENOVO",
-        modelo: "T495",
+        modelo: "LENOVO T495",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Ingeniería, Análisis de datos, Contabilidad",
-        procesador: "AMD RYZEN 5 3500U",
+        procesador: "RYZEN 5 3500U",
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
-        Graficos: "AMD RX VEGA 7",
         precio: "320,00 usd",
         imagenes: [
-            "imagenes/lenovot495 4.jpg",
-            "imagenes/lenovot495 3.jpg",
             "imagenes/lenovot495.jpg",
-            "imagenes/lenovot495 2.jpg",
+            "imagenes/lenovot495.jpg 2",
+            "imagenes/lenovot495.jpg 3",
+            "iimagenes/lenovot495.jpg 4",
         ]
     },
     {
@@ -177,9 +189,8 @@ function crearTarjeta(equipo) {
                 <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
                 <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
                 <li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>
-                 ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
             </ul>
-            
+
             <div class="precio-btn-container">
                 <span class="precio">${textoPrecio}</span>
                 <div class="acciones-producto">
