@@ -146,11 +146,13 @@ function crearTarjeta(equipo) {
             <h3 class="titulo-prod"><i class="fa-solid ${iconoTipo}" style="color: var(--primary-blue); font-size: 1rem; margin-right: 5px;"></i> ${equipo.marca} ${equipo.modelo}</h3>
             
             <ul class="specs">
-                <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
-                <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
-                <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
-                <li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>
-            </ul>
+    <li><i class="fa-solid fa-microchip"></i> ${equipo.procesador}</li>
+    <li><i class="fa-solid fa-memory"></i> ${equipo.ram}</li>
+    <li><i class="fa-solid fa-hard-drive"></i> ${equipo.almacenamiento}</li>
+    ${equipo.pantalla ? `<li><i class="fa-solid fa-display"></i> ${equipo.pantalla}</li>` : ''}
+    ${equipo.Graficos ? `<li><i class="fa-solid fa-gamepad"></i> ${equipo.Graficos}</li>` : ''}
+    ${equipo.fuente ? `<li><i class="fa-solid fa-bolt"></i> ${equipo.fuente}</li>` : ''}
+</ul>
 
             <div class="precio-btn-container">
                 <span class="precio">${textoPrecio}</span>
