@@ -19,7 +19,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 5,
+        id: 2,
         tipo: "Laptop",
         marca: "LENOVO",
         modelo: "LENOVO T495",
@@ -38,7 +38,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 6,
+        id: 3,
         tipo: "Laptop",
         marca: "DELL",
         modelo: "Inspiron 15 3535 Táctil",
@@ -59,7 +59,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 7,
+        id: 4,
         tipo: "Laptop",
         marca: "HP",
         modelo: "EliteBook 845 G8",
@@ -79,7 +79,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 8,
+        id: 5,
         tipo: "Laptop",
         marca: "HP",
         modelo: "ProBook 445 G7",
