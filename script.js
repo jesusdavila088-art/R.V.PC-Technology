@@ -19,10 +19,30 @@ const inventarioRefurbished = [
         ]
        
     },
-
-   
+   {
+      id: 2,
+        tipo: "Escritorio",
+        marca: "Qiyida",
+        modelo: "XEON X99",
+        condicion: "GARANTIA INCLUIDA",
+        idealPara: "Oficinas, Puntos de venta, Administración,GAMA ENTRADA.",
+        procesador: "Xeon E5 2670v3",
+        ram: "16 GB DDR4",
+        almacenamiento: "500 GB SSD",
+        Graficos: "RX 580 8GB 2048SP",
+        fuente: "CX650M Semi Mod",
+        case: "generico",
+        fancooler: "Qiyida x99 D4",
+        pantalla: "no incluye",
+        precio: "400.00 usd",
+        imagenes: [
+            "imagenes/casegenerico.jpg",
+          
+         ]
+      
+      },    
     {
-        id: 2,
+        id: 3,
         tipo: "Laptop",
         marca: "LENOVO",
         modelo: "LENOVO T495",
@@ -35,13 +55,13 @@ const inventarioRefurbished = [
         precio: "320,00 usd",
         imagenes: [
             "imagenes/lenovot495.jpg",
-            "imagenes/lenovot495.jpg 2",
-            "imagenes/lenovot495.jpg 3",
-            "iimagenes/lenovot495.jpg 4",
+            "imagenes/lenovot495 2.jpg",
+            "imagenes/lenovot495 3.jpg",
+            "iimagenes/lenovot495 4.jpg",
         ]
     },
     {
-        id: 3,
+        id: 4,
         tipo: "Laptop",
         marca: "DELL",
         modelo: "Inspiron 15 3535 Táctil",
@@ -62,7 +82,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         tipo: "Laptop",
         marca: "HP",
         modelo: "EliteBook 845 G8",
@@ -82,7 +102,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         tipo: "Laptop",
         marca: "HP",
         modelo: "ProBook 445 G7",
