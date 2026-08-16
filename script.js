@@ -96,26 +96,7 @@ const inventarioRefurbished = [
             "imagenes/HP EliteBook 845 G8 4.jpg",
         ]
     },
-    {
-        id: 6,
-        tipo: "Laptop",
-        marca: "HP",
-        modelo: "ProBook 445 G7",
-        condicion: "GARANTIA INCLUIDA",
-        idealPara: "Ofimática fluida, Estudiantes",
-        procesador: "AMD Ryzen 5 4500U",
-        ram: "16 GB DDR4",
-        almacenamiento: "256 GB NVMe",
-        pantalla: "14\" FHD",
-        Graficos: "AMD RX VEGA 7",
-        precio: "350.00 usd",
-        imagenes: [
-            "imagenes/HP ProBook 445 G7 1.jpg",
-            "imagenes/HP ProBook 445 G7 2.jpg",
-            "imagenes/HP ProBook 445 G7 3.jpg",
-            "imagenes/HP ProBook 445 G7 4.jpg",
-        ]
-    }
+    
 ];
 
 function obtenerImagenes(equipo) {
