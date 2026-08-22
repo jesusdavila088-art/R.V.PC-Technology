@@ -147,7 +147,7 @@ const inventarioRefurbished = [
     },
     {
         id: 9,
-        tipo: "Combo Actualización",
+        tipo: "Combos",
         marca: "Qiyida",
         modelo: "Combo Xeon X99 D4",
         condicion: "90 DÍAS DE GARANTÍA",
