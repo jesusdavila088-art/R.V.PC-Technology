@@ -1233,3 +1233,6 @@ footer::before {
         scroll-behavior: auto;
     }
 }
+.etiqueta-estado {
+    display: none !important;
+}
