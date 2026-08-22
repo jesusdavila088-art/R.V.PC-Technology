@@ -394,7 +394,7 @@ function renderizarCatalogo() {
         { titulo: "Laptops AMD Ryzen", icono: "fa-laptop", filtro: (e) => e.tipo === "Laptop" && e.procesador.includes("AMD") },
         { titulo: "Tarjetas de Video", icono: "fa-microchip", filtro: "Tarjeta de Video" },
         { titulo: "Memorias RAM", icono: "fa-memory", filtro: "Memoria RAM" },
-        { titulo: "Combos de Actualización", icono: "fa-cubes", filtro: "Combo Actualización" }
+        { titulo: "Combos", icono: "fa-cubes", filtro: "Combos" }
     ];
 
     categorias.forEach(({ titulo, icono, filtro }) => {
