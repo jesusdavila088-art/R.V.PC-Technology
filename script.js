@@ -96,6 +96,71 @@ const inventarioRefurbished = [
             "imagenes/HP EliteBook 845 G8 4.jpg",
         ]
     },
+    {
+        id: 6,
+        tipo: "Tarjeta de Video",
+        marca: "AMD Radeon",
+        modelo: "RX 550 2GB GDDR5",
+        condicion: "GARANTIA INCLUIDA",
+        idealPara: "Actualización de PCs de oficina, eSports ligeros, formato compacto",
+        procesador: "GPU AMD RX 550",
+        ram: "2 GB GDDR5 (128 Bits)",
+        almacenamiento: "PCIe 3.0 x8 - Low Profile",
+        precio: "60.00 usd",
+        imagenes: [
+            "imagenes/rx5501.jpg",
+            "imagenes/rx5502.jpg",
+            "imagenes/rx5503.jpg",
+        ]
+    },
+    {
+        id: 7,
+        tipo: "Memoria RAM",
+        marca: "Desktop",
+        modelo: "DDR3 4GB 1600MHz",
+        condicion: "GARANTIA INCLUIDA",
+        idealPara: "Mejorar multitarea, eliminar retardos y acelerar el sistema operativo",
+        procesador: "Tipo: DDR3 DIMM (Escritorio)",
+        ram: "Capacidad: 4 GB",
+        almacenamiento: "Frecuencia: 1600 MHz",
+        precio: "15.00 usd",
+        imagenes: [
+            "imagenes/ramddr34gb1.jpg",
+            "imagenes/ramddr34gb2.jpg",
+            "imagenes/ramddr34gb3.jpg",
+        ]
+    },
+    {
+        id: 8,
+        tipo: "Memoria RAM",
+        marca: "Desktop",
+        modelo: "DDR3 8GB 1600MHz",
+        condicion: "GARANTIA INCLUIDA",
+        idealPara: "Mejorar multitarea, eliminar retardos y acelerar el sistema operativo",
+        procesador: "Tipo: DDR3 DIMM (Escritorio)",
+        ram: "Capacidad: 8 GB",
+        almacenamiento: "Frecuencia: 1600 MHz",
+        precio: "30.00 usd",
+        imagenes: [
+            "imagenes/ramddr38gb1.jpg",
+        ]
+    },
+    {
+        id: 9,
+        tipo: "Combo Actualización",
+        marca: "Qiyida",
+        modelo: "Combo Xeon X99 D4",
+        condicion: "90 DÍAS DE GARANTÍA",
+        idealPara: "Gaming de entrada, renderizado y multitarea pesada",
+        procesador: "Xeon E5 2670v3",
+        ram: "16 GB DDR4",
+        almacenamiento: "Placa con Puerto M.2 NVMe",
+        Graficos: "Incluye Fan Cooler RGB 2011",
+        precio: "160.00 usd",
+        imagenes: [
+            "imagenes/xeonx99.jpg"
+        ]
+    },
     
 ];
 
@@ -326,7 +391,10 @@ function renderizarCatalogo() {
     const categorias = [
         { titulo: "Escritorios (CPUs)", icono: "fa-desktop", filtro: "Escritorio" },
         { titulo: "Laptops Intel", icono: "fa-laptop", filtro: (e) => e.tipo === "Laptop" && e.procesador.includes("Intel") },
-        { titulo: "Laptops AMD Ryzen", icono: "fa-laptop", filtro: (e) => e.tipo === "Laptop" && e.procesador.includes("AMD") }
+        { titulo: "Laptops AMD Ryzen", icono: "fa-laptop", filtro: (e) => e.tipo === "Laptop" && e.procesador.includes("AMD") },
+        { titulo: "Tarjetas de Video", icono: "fa-microchip", filtro: "Tarjeta de Video" },
+        { titulo: "Memorias RAM", icono: "fa-memory", filtro: "Memoria RAM" },
+        { titulo: "Combos de Actualización", icono: "fa-cubes", filtro: "Combo Actualización" }
     ];
 
     categorias.forEach(({ titulo, icono, filtro }) => {
