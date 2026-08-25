@@ -116,7 +116,7 @@ const inventarioRefurbished = [
     {
         id: 7,
         tipo: "Memoria RAM",
-        marca: "Desktop",
+        marca: "SK hynix",
         modelo: "DDR3 4GB 1600MHz",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Mejorar multitarea, eliminar retardos y acelerar el sistema operativo",
@@ -133,7 +133,7 @@ const inventarioRefurbished = [
     {
         id: 8,
         tipo: "Memoria RAM",
-        marca: "Desktop",
+        marca: "SK hynix",
         modelo: "DDR3 8GB 1600MHz",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Mejorar multitarea, eliminar retardos y acelerar el sistema operativo",
