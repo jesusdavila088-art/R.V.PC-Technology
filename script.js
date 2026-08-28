@@ -65,7 +65,7 @@ const inventarioRefurbished = [
         procesador: "AMD Ryzen 7 7730U",
         ram: "16 GB DDR4",
         almacenamiento: "512 GB NVMe",
-        pantalla: "14\" FHD Táctil",
+        pantalla: "15.6\" FHD Táctil",
         precio: "490,00 usd",
         imagenes: [
             "imagenes/DELL Inspiron 15 3535 Táctil 1.jpg",
