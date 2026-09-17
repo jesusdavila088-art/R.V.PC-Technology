@@ -161,7 +161,25 @@ const inventarioRefurbished = [
             "imagenes/xeonx99.jpg"
         ]
     },
-    
+    {
+       id: 10,
+        tipo: "escritorio",
+        marca: "HP",
+        modelo: "HP MINI PRODESK G3",
+        condicion: "90 DÍAS DE GARANTÍA",
+        idealPara: "MULTIFUNCIONAL",
+        procesador: "INTEL CORE I5 6500T",
+        ram: "8 GB DDR4",
+        almacenamiento: "256GB SSD",
+        Graficos: "INTEL HD 530",
+        precio: "190.00 usd",
+        imagenes: [
+           "imagenes/HPPRODESK1.jpg",
+           "imagenes/HPPRODESK2.jpg",
+           "imagenes/HPPRODESK3.jpg",
+           "imagenes/HPPRODESK4.jpg",
+           ]
+    }.       
 ];
 
 function obtenerImagenes(equipo) {
