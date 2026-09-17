@@ -163,7 +163,7 @@ const inventarioRefurbished = [
     },
     {
        id: 10,
-        tipo: "escritorio",
+        tipo: "Escritorio",
         marca: "HP",
         modelo: "HP MINI PRODESK G3",
         condicion: "90 DÍAS DE GARANTÍA",
@@ -178,8 +178,8 @@ const inventarioRefurbished = [
            "imagenes/HPPRODESK2.jpg",
            "imagenes/HPPRODESK3.jpg",
            "imagenes/HPPRODESK4.jpg",
-           ]
-    }.       
+    ]
+    },    
 ];
 
 function obtenerImagenes(equipo) {
