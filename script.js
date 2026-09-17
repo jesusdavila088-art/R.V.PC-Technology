@@ -12,7 +12,7 @@ const inventarioRefurbished = [
         almacenamiento: "500 GB HDD",
         pantalla: "no incluye",
         Graficos: "Nvidia NS310",
-        precio: "170.00 usd",
+        precio: "210.00 usd",
         imagenes: [
             "imagenes/hpz230.jpg",
             "imagenes/hpz230 1.jpg",
@@ -31,7 +31,7 @@ const inventarioRefurbished = [
     almacenamiento: "500 GB SSD",
     Graficos: "RX 580 8GB 2048SP",
     fuente: "CX650M Semi Mod",
-    precio: "400.00 usd",
+    precio: "390.00 usd",
     imagenes: [
         "imagenes/casegenerico.jpg"
     ]
@@ -47,7 +47,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "256 GB NVMe",
         pantalla: "14\" FHD",
-        precio: "320,00 usd",
+        precio: "330,00 usd",
         imagenes: [
             "imagenes/lenovot495.jpg",
             "imagenes/lenovot495 2.jpg",
