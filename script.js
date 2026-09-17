@@ -165,7 +165,7 @@ const inventarioRefurbished = [
        id: 10,
         tipo: "Escritorio",
         marca: "HP",
-        modelo: "HP MINI PRODESK G3",
+        modelo: "MINI PRODESK G3",
         condicion: "90 DÍAS DE GARANTÍA",
         idealPara: "MULTIFUNCIONAL",
         procesador: "INTEL CORE I5 6500T",
