@@ -165,7 +165,7 @@ const inventarioRefurbished = [
        id: 10,
         tipo: "Escritorio",
         marca: "HP",
-        modelo: "MINI PRODESK G3",
+        modelo: "HP MINI PRODESK G3",
         condicion: "90 DÍAS DE GARANTÍA",
         idealPara: "MULTIFUNCIONAL",
         procesador: "INTEL CORE I5 6500T",
@@ -224,7 +224,12 @@ function crearTarjeta(equipo) {
                     </button>
                     <button type="button" class="btn-comprar">
                         <i class="fa-brands fa-whatsapp"></i> Lo quiero
+                        <a/>
+                        <button class="btn-compartir" onclick="compartirProducto('${equipo.modelo}', '${equipo.precio}')">
+            <i class="fa-solid fa-share-nodes"></i> Compartir
+        </button>
                     </button>
+                    
                 </div>
             </div>
         </div>
@@ -451,3 +456,16 @@ document.addEventListener('DOMContentLoaded', () => {
     renderizarCatalogo();
     inicializarVisor();
 });
+function compartirProducto(modelo, precio) {
+    const urlActual = window.location.href;
+    if (navigator.share) {
+        navigator.share({
+            title: 'R.V.PC Technology - ' + modelo,
+            text: '¡Mira este equipo disponible en R.V.PC Technology por ' + precio + '!',
+            url: urlActual,
+        }).catch(() => {});
+    } else {
+        navigator.clipboard.writeText(urlActual);
+        alert('¡Enlace del catálogo copiado al portapapeles!');
+    }
+}

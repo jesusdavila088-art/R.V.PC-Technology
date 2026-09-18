@@ -1236,3 +1236,21 @@ footer::before {
 .etiqueta-estado {
     display: none !important;
 }
+.btn-compartir {
+    background: transparent;
+    border: 1px solid rgba(168, 85, 247, 0.4);
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-compartir:hover {
+    background: rgba(168, 85, 247, 0.2);
+    border-color: #a855f7;
+}
