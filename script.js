@@ -97,7 +97,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 6,
+        id: 12,
         tipo: "Tarjeta de Video",
         marca: "AMD Radeon",
         modelo: "RX 550 2GB GDDR5",
@@ -201,7 +201,7 @@ const inventarioRefurbished = [
     ]
     },
    {
-        id: 12,
+        id: 6,
         tipo: "Laptop",
         marca: "ASUS",
         modelo: "VECTOR 16HX AI",
