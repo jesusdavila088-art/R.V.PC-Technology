@@ -200,6 +200,26 @@ const inventarioRefurbished = [
            "imagenes/lenovotinkpad5.jpg",
     ]
     },
+   {
+        id: 3,
+        tipo: "Laptop",
+        marca: "ASUS",
+        modelo: "VECTOR 16HX AI",
+        idealPara: "Ingeniería, Análisis de datos, Contabilidad",
+        procesador: "PROCESADOR INTEL CORE ULTRA 9 275HX ",
+        ram: "16 GB GDDR5",
+        almacenamiento: "1TB SSD",
+        pantalla: "16/ QHD+",
+        Graficos: "RTX 580 16GB",
+        precio: "2500.00 usd",
+        imagenes: [
+            "imagenes/vector1.jpg",
+            "imagenes/vector2.jpg",
+            "imagenes/vector3.jpg",
+            "imagenes/vector4.jpg",
+            "imagenes/vector5.jpg",
+        ]
+    },
 ];
 
 function obtenerImagenes(equipo) {
