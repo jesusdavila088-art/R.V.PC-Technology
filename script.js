@@ -209,8 +209,8 @@ const inventarioRefurbished = [
         procesador: "Procesador Intel Core Ultra 9 275HX ",
         ram: "16 GB GDDR5",
         almacenamiento: "1TB SSD",
-        pantalla: "16/ QHD+",
-        Graficos: "RTX 580 16GB",
+        pantalla: "16/ QHD+ IPS 240HZ ANTI-GLARE",
+        Graficos: "RTX 580 16GB GDDR7",
         precio: "2500.00 usd",
         imagenes: [
             "imagenes/vector1.jpg",
