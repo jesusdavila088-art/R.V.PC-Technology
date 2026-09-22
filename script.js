@@ -179,7 +179,27 @@ const inventarioRefurbished = [
            "imagenes/HPPRODESK3.jpg",
            "imagenes/HPPRODESK4.jpg",
     ]
-    },    
+    },
+   {
+       id: 11,
+        tipo: "Escritorio",
+        marca: "lenovo",
+        modelo: "M715Q MiNi",
+        condicion: "90 DÍAS DE GARANTÍA",
+        idealPara: "MULTIFUNCIONAL",
+        procesador: "RYZEN 5 2400GE",
+        ram: "8 GB DDR4",
+        almacenamiento: "256GB SSD",
+        Graficos: "RX VEGA 7",
+        precio: "220.00 usd",
+        imagenes: [
+           "imagenes/lenovotinkpad0.jpg",
+           "imagenes/lenovotinkpad2.jpg",
+           "imagenes/lenovotinkpad3.jpg",
+           "imagenes/lenovotinkpad4.jpg",
+           "imagenes/lenovotinkpad5.jpg",
+    ]
+    },
 ];
 
 function obtenerImagenes(equipo) {
