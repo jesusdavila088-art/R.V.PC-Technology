@@ -201,7 +201,7 @@ const inventarioRefurbished = [
     ]
     },
    {
-        id: 3,
+        id: 12,
         tipo: "Laptop",
         marca: "ASUS",
         modelo: "VECTOR 16HX AI",
