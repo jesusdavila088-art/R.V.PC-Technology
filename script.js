@@ -97,7 +97,7 @@ const inventarioRefurbished = [
         ]
     },
     {
-        id: 12,
+        id: 6,
         tipo: "Tarjeta de Video",
         marca: "AMD Radeon",
         modelo: "RX 550 2GB GDDR5",
@@ -201,12 +201,12 @@ const inventarioRefurbished = [
     ]
     },
    {
-        id: 6,
+        id: 12,
         tipo: "Laptop",
         marca: "ASUS",
         modelo: "VECTOR 16HX AI",
-        idealPara: "Ingeniería, Análisis de datos, Contabilidad",
-        procesador: "PROCESADOR INTEL CORE ULTRA 9 275HX ",
+        idealPara: "GAMER, INGENIERIA, EDICION, ALTO RENDIMIENTO",
+        procesador: "Procesador Intel Core Ultra 9 275HX ",
         ram: "16 GB GDDR5",
         almacenamiento: "1TB SSD",
         pantalla: "16/ QHD+",
