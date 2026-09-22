@@ -31,7 +31,7 @@ const inventarioRefurbished = [
     almacenamiento: "500 GB SSD",
     Graficos: "RX 580 8GB 2048SP",
     fuente: "CX650M Semi Mod",
-    precio: "390.00 usd",
+    precio: "420.00 usd",
     imagenes: [
         "imagenes/casegenerico.jpg"
     ]
@@ -156,7 +156,7 @@ const inventarioRefurbished = [
         ram: "16 GB DDR4",
         almacenamiento: "Placa con Puerto M.2 NVMe",
         Graficos: "Incluye Fan Cooler RGB 2011",
-        precio: "160.00 usd",
+        precio: "175.00 usd",
         imagenes: [
             "imagenes/xeonx99.jpg"
         ]
