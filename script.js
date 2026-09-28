@@ -203,7 +203,7 @@ const inventarioRefurbished = [
    {
         id: 12,
         tipo: "Laptop",
-        marca: "ASUS",
+        marca: "MSI",
         modelo: "VECTOR 16HX AI",
         idealPara: "GAMER, INGENIERIA, EDICION, ALTO RENDIMIENTO",
         procesador: "Procesador Intel Core Ultra 9 275HX ",
