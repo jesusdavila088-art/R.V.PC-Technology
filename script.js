@@ -33,7 +33,7 @@ const inventarioRefurbished = [
     fuente: "CX650M Semi Mod",
     precio: "420.00 usd",
     imagenes: [
-        "imagenes/casegenerico.jpg"
+        "imagenes/casepc.jpg"
     ]
 },    
     {
