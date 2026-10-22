@@ -210,7 +210,7 @@ const inventarioRefurbished = [
         ram: "16 GB GDDR5",
         almacenamiento: "1TB SSD",
         pantalla: "16/ QHD+ IPS 240HZ ANTI-GLARE",
-        Graficos: "RTX 580 16GB GDDR7",
+        Graficos: "RTX 5080 16GB GDDR7",
         precio: "2800.00 usd",
         imagenes: [
             "imagenes/vector1.jpg",
