@@ -30,7 +30,7 @@ const inventarioRefurbished = [
     ram: "16 GB DDR4",
     almacenamiento: "500 GB SSD",
     Graficos: "RX 580 8GB 2048SP",
-    fuente: "CX650M Semi Mod",
+    fuente: "XPG 850W Gold",
     precio: "420.00 usd",
     imagenes: [
         "imagenes/casepc.jpg"
