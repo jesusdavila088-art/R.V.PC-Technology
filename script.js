@@ -40,7 +40,7 @@ const inventarioRefurbished = [
         id: 3,
         tipo: "Laptop",
         marca: "LENOVO",
-        modelo: "LENOVO T495",
+        modelo: "T495",
         condicion: "GARANTIA INCLUIDA",
         idealPara: "Ingeniería, Análisis de datos, Contabilidad",
         procesador: "AMD RYZEN 5 3500U",
@@ -153,10 +153,10 @@ const inventarioRefurbished = [
         condicion: "90 DÍAS DE GARANTÍA",
         idealPara: "Gaming de entrada, renderizado y multitarea pesada",
         procesador: "Xeon E5 2670v3",
-        ram: "16 GB DDR4",
-        almacenamiento: "Placa con Puerto M.2 NVMe",
-        Graficos: "Incluye Fan Cooler RGB 2011",
-        precio: "175.00 usd",
+        ram: "8 GB DDR4",
+        almacenamiento: "Placa con Puerto TPM 2.0",
+        Graficos: "Fan Cooler RGB cobre",
+        precio: "180.00 usd",
         imagenes: [
             "imagenes/xeonx99.jpg"
         ]
