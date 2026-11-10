@@ -276,7 +276,7 @@
       price: 175,
       specs: [
         ["Procesador", "Intel Xeon E5-2670 v3"],
-        ["Memoria", "16 GB DDR4"],
+        ["Memoria", "8 GB DDR4"],
         ["Placa", "X99 con puerto M.2 NVMe"],
         ["Refrigeración", "Fan Cooler RGB 2011"],
         ["Formato", "ATX"]
