@@ -373,7 +373,7 @@
     {
       slug: "msi-vector-16hx-ai",
       kicker: "Nuevo ingreso · Gama alta",
-      title: "Potencia sin concesiones",
+      title: "Potencia sin Limites",
       desc: "MSI Vector 16 HX AI. Core Ultra 9, RTX 5080 y panel QHD+ de 240 Hz para trabajar y jugar al máximo nivel.",
       specs: ["Ultra 9 275HX", "RTX 5080", "240 Hz QHD+"],
       image: "imagenes/vector1.jpg"
