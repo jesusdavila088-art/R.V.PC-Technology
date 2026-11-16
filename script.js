@@ -82,7 +82,7 @@
       warranty: "90 días de garantía",
       badge: "Gama entrada",
       ideal: "Oficinas, puntos de venta y administración.",
-      price: 210,
+      price: 199,
       specs: [
         ["Procesador", "Intel Xeon E3-1240 v3"],
         ["Memoria", "16 GB DDR3"],
@@ -109,8 +109,8 @@
         ["Procesador", "Intel Xeon E5-2670 v3"],
         ["Memoria", "16 GB DDR4"],
         ["Almacenamiento", "500 GB SSD"],
-        ["Gráfica", "AMD RX 580 8 GB"],
-        ["Fuente", "Corsair CX650M Semi Modular"]
+        ["Gráfica", "AMD RX 580 8 GB 2848SP"],
+        ["Fuente", "XGP 850W GOLD"]
       ],
       images: ["imagenes/casegenerico.jpg"],
       featured: true
@@ -126,7 +126,7 @@
       warranty: "90 días de garantía",
       badge: "Empresarial",
       ideal: "Ingeniería, análisis de datos y contabilidad.",
-      price: 330,
+      price: 310,
       specs: [
         ["Procesador", "AMD Ryzen 5 3500U"],
         ["Memoria", "16 GB DDR4"],
@@ -152,14 +152,14 @@
       condition: "Certificado Grado A+",
       warranty: "90 días de garantía",
       badge: "Táctil",
-      ideal: "Diseño interactivo, estudio y multitarea intensiva.",
-      price: 490,
+      ideal: "Diseño interactivo, estudio y multitarea, ingenieria.",
+      price: 515,
       specs: [
         ["Procesador", "AMD Ryzen 7 7730U"],
         ["Memoria", "16 GB DDR4"],
         ["Almacenamiento", "512 GB NVMe"],
         ["Pantalla", '15.6" FHD táctil'],
-        ["Gráfica", "Radeon Graphics"]
+        ["Gráfica", "Radeon Vega 8"]
       ],
       images: [
         "imagenes/DELL Inspiron 15 3535 Táctil 1.jpg",
@@ -180,7 +180,7 @@
       model: "EliteBook 845 G8",
       condition: "Certificado Grado A+",
       warranty: "90 días de garantía",
-      badge: "Corporativa",
+      badge: "Corporativa, diseño, programacion",
       ideal: "Trabajo corporativo y productividad avanzada.",
       price: 400,
       specs: [
