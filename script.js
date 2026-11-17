@@ -156,7 +156,7 @@
       warranty: "90 días de garantía",
       badge: "Táctil",
       ideal: "Diseño interactivo, estudio y multitarea intensiva.",
-      price: 490,
+      price: 520,
       specs: [
         ["Procesador", "AMD Ryzen 7 7730U"],
         ["Memoria", "16 GB DDR4"],
