@@ -85,7 +85,7 @@
       warranty: "90 días de garantía",
       badge: "Gama entrada",
       ideal: "Oficinas, puntos de venta y administración.",
-      price: 210,
+      price: 199,
       specs: [
         ["Procesador", "Intel Xeon E3-1240 v3"],
         ["Memoria", "16 GB DDR3"],
@@ -129,7 +129,7 @@
       warranty: "90 días de garantía",
       badge: "Empresarial",
       ideal: "Ingeniería, análisis de datos y contabilidad.",
-      price: 330,
+      price: 310,
       specs: [
         ["Procesador", "AMD Ryzen 5 3500U"],
         ["Memoria", "16 GB DDR4"],
@@ -162,7 +162,7 @@
         ["Memoria", "16 GB DDR4"],
         ["Almacenamiento", "512 GB NVMe"],
         ["Pantalla", '15.6" FHD táctil'],
-        ["Gráfica", "Radeon Graphics"]
+        ["Gráfica", "Radeon vega 8"]
       ],
       images: [
         "imagenes/DELL Inspiron 15 3535 Táctil 1.jpg",
@@ -279,7 +279,7 @@
       price: 175,
       specs: [
         ["Procesador", "Intel Xeon E5-2670 v3"],
-        ["Memoria", "16 GB DDR4"],
+        ["Memoria", "8 GB DDR4"],
         ["Placa", "X99 con puerto M.2 NVMe"],
         ["Refrigeración", "Fan Cooler RGB 2011"],
         ["Formato", "ATX"]
