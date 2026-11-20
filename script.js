@@ -85,7 +85,7 @@
       warranty: "90 días de garantía",
       badge: "Gama entrada",
       ideal: "Oficinas, puntos de venta y administración.",
-      price: 199,
+      price: 190,
       specs: [
         ["Procesador", "Intel Xeon E3-1240 v3"],
         ["Memoria", "16 GB DDR3"],
@@ -129,7 +129,7 @@
       warranty: "90 días de garantía",
       badge: "Empresarial",
       ideal: "Ingeniería, análisis de datos y contabilidad.",
-      price: 310,
+      price: 300,
       specs: [
         ["Procesador", "AMD Ryzen 5 3500U"],
         ["Memoria", "16 GB DDR4"],
@@ -156,7 +156,7 @@
       warranty: "90 días de garantía",
       badge: "Táctil",
       ideal: "Diseño interactivo, estudio y multitarea intensiva.",
-      price: 520,
+      price: 500,
       specs: [
         ["Procesador", "AMD Ryzen 7 7730U"],
         ["Memoria", "16 GB DDR4"],
@@ -185,7 +185,7 @@
       warranty: "90 días de garantía",
       badge: "Corporativa",
       ideal: "Trabajo corporativo y productividad avanzada.",
-      price: 400,
+      price: 395,
       specs: [
         ["Procesador", "AMD Ryzen 5 5650U"],
         ["Memoria", "16 GB DDR4"],
